@@ -1,80 +1,88 @@
 import React from "react";
+import Image from "next/image";
+import { BsArrowUpRight } from "react-icons/bs";
 
 const Projects = () => {
   return (
     <div className="py-4">
-      <h1 className="mt-4 text-lg font-semibold text-primary mb-4">
+      <h1 className="mt-4 text-xl font-semibold text-primary mb-4">
         Check Out What I've Been Up To
       </h1>
       <div className="grid grid-cols-6 gap-4">
-        <div className="col-span-3 border border-zinc-800 rounded-3xl p-6">
-          <p className="text-zinc-400 text-lg mb-8">
-            I'm Yahya, a frontend developer who's obsessed with building cool
-            stuff on the web. I'm passionate about learning and growing in what
-            I do, and I love tackling new challenges. I've had the chance to
-            work with some fantastic developers, and I'm always eager to dive
-            into new projects. When I'm not coding, I'm usually working on side
-            projects, exploring new tech, or enjoying some good series. Let's
-            build something awesome together!
+        <div className="col-span-3">
+          <Image
+            src="/assets/coin-pulse.png"
+            alt="CoinPulse Project"
+            className="rounded-3xl"
+            width={800}
+            height={800}
+            quality={100}
+          />
+          <div className="flex gap-2">
+            <h1 className="mt-4 text-lg font-semibold text-primary">
+              Coin Pulse
+            </h1>
+            <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+          </div>
+          <p className="text-zinc-400">
+            Real-time crypto updates with smooth, responsive design.
           </p>
         </div>
-        <div className="col-span-3 border border-zinc-800 rounded-3xl p-6">
-          <p className="text-zinc-400 text-lg mb-8">
-            I'm Yahya, a frontend developer who's obsessed with building cool
-            stuff on the web. I'm passionate about learning and growing in what
-            I do, and I love tackling new challenges. I've had the chance to
-            work with some fantastic developers, and I'm always eager to dive
-            into new projects. When I'm not coding, I'm usually working on side
-            projects, exploring new tech, or enjoying some good series. Let's
-            build something awesome together!
-          </p>
-        </div>
-      </div>
-      <div className="grid grid-cols-6 gap-4 mt-4">
-        <div className="col-span-3 border border-zinc-800 rounded-3xl p-6">
-          <p className="text-zinc-400 text-lg mb-8">
-            I'm Yahya, a frontend developer who's obsessed with building cool
-            stuff on the web. I'm passionate about learning and growing in what
-            I do, and I love tackling new challenges. I've had the chance to
-            work with some fantastic developers, and I'm always eager to dive
-            into new projects. When I'm not coding, I'm usually working on side
-            projects, exploring new tech, or enjoying some good series. Let's
-            build something awesome together!
-          </p>
-        </div>
-        <div className="col-span-3 border border-zinc-800 rounded-3xl p-6">
-          <p className="text-zinc-400 text-lg mb-8">
-            I'm Yahya, a frontend developer who's obsessed with building cool
-            stuff on the web. I'm passionate about learning and growing in what
-            I do, and I love tackling new challenges. I've had the chance to
-            work with some fantastic developers, and I'm always eager to dive
-            into new projects. When I'm not coding, I'm usually working on side
-            projects, exploring new tech, or enjoying some good series. Let's
-            build something awesome together!
+        <div className="col-span-3">
+          <Image
+            src="/assets/trace-myip.png"
+            alt="CoinPulse Project"
+            className="rounded-3xl"
+            width={800}
+            height={800}
+            quality={100}
+          />
+          <div className="flex gap-2">
+            <h1 className="mt-4 text-lg font-semibold text-primary">
+              Trace My IP
+            </h1>
+            <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+          </div>
+          <p className="text-zinc-400">
+            Real-time location mapping, clean UI, and accurate IP tracking.
           </p>
         </div>
       </div>
       <div className="grid grid-cols-6 gap-4 mt-4">
-        <div className="col-span-3 border border-zinc-800 rounded-3xl p-6">
-          <p className="text-zinc-400 text-lg mb-8">
-            I'm Yahya, a frontend developer who's obsessed with building cool
-            stuff on the web. I'm passionate about learning and growing in what
-            I do, and I love tackling new challenges. I've had the chance to
-            work with some fantastic developers, and I'm always eager to dive
-            into new projects. When I'm not coding, I'm usually working on side
-            projects, exploring new tech, or enjoying some good series. Let's
-            build something awesome together!
+        <div className="col-span-3">
+          <Image
+            src="/assets/finedge.png"
+            alt="CoinPulse Project"
+            className="rounded-3xl"
+            width={900}
+            height={900}
+            quality={100}
+          />
+          <div className="flex gap-2">
+            <h1 className="mt-4 text-lg font-semibold text-primary">FinEdge</h1>
+            <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+          </div>
+          <p className="text-zinc-400">
+            Innovative banking UI with modern, responsive design.
           </p>
         </div>
-        <div className="col-span-3 border border-zinc-800 rounded-3xl p-6">
-          <p className="text-zinc-400 text-lg mb-8">
-            I'm Yahya, a frontend developer who's obsessed with building cool
-            stuff on the web. I'm passionate about learning and growing in what
-            I do, and I love tackling new challenges. I've had the chance to
-            work with some fantastic developers, and I'm always eager to dive
-            into new projects. When I'm not coding, I'm usually working on side
-            projects, exploring new tech, or enjoying some good series. Let's
-            build something awesome together!
+        <div className="col-span-3">
+          <Image
+            src="/assets/nexusai.png"
+            alt="CoinPulse Project"
+            className="rounded-3xl"
+            width={800}
+            height={800}
+            quality={100}
+          />
+          <div className="flex gap-2">
+            <h1 className="mt-4 text-lg font-semibold text-primary">
+              Nexus AI
+            </h1>
+            <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+          </div>
+          <p className="text-zinc-400">
+            Futuristic design with a focus on clean, modern UI.
           </p>
         </div>
       </div>

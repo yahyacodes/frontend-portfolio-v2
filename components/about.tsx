@@ -4,9 +4,9 @@ import { BiRightArrowAlt } from "react-icons/bi";
 
 const About = () => {
   return (
-    <div className="leading-snug rounded-3xl border border-zinc-800 p-6">
+    <div className="leading-snug rounded-3xl border border-zinc-900 p-6">
       <div className="mb-12">
-        <h1 className="text-2xl font-bold mb-2 text-primary">
+        <h1 className="text-2xl font-bold mb-4 text-primary">
           Hey, This is Me
         </h1>
         <p className="text-zinc-400 text-lg mb-8">
