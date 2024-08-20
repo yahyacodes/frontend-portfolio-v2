@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { BiRightArrowAlt } from "react-icons/bi";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -18,10 +19,12 @@ const About = () => {
           exploring new tech, or enjoying some good series. Let's build
           something awesome together!
         </p>
-        <Button variant="outline" className="text-primary flex gap-2">
-          Browse my work
-          <BiRightArrowAlt />
-        </Button>
+        <Link href="https://github.com/yahyacodes" target="_blank">
+          <Button variant="outline" className="text-primary flex gap-2">
+            Browse my work
+            <BiRightArrowAlt />
+          </Button>
+        </Link>
       </div>
     </div>
   );

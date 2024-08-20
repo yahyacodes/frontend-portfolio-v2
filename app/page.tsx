@@ -1,9 +1,8 @@
 import Hero from "@/components/hero";
 import About from "@/components/about";
-import Blogs from "@/components/blogs";
+import Blogs from "@/components/docker";
 import Contact from "@/components/contact";
-import Socials from "@/components/socials";
-import Logos from "@/components/ui/logos";
+import Logos from "@/components/logos";
 import Projects from "@/components/projects";
 
 export default function Home() {
@@ -14,9 +13,8 @@ export default function Home() {
         <Logos />
         <About />
         <Projects />
-        {/* <Socials />
-        <Blogs />
-        <Contact /> */}
+        <Contact />
+        {/* <Blogs /> */}
       </div>
     </main>
   );
