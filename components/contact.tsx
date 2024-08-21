@@ -17,6 +17,8 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { AiOutlineSend } from "react-icons/ai";
+import Link from "next/link";
+import { VscFileSymlinkFile } from "react-icons/vsc";
 
 const Contact = () => {
   return (
@@ -78,19 +80,24 @@ const Contact = () => {
                   />
                 </div>
                 <div className="mt-4">
-                  <Label htmlFor="username" className="text-primary">
-                    Username
+                  <Label htmlFor="email" className="text-primary">
+                    Email
                   </Label>
                   <Input
-                    id="username"
+                    id="email"
                     placeholder="Enter your email"
                     className="col-span-3 text-zinc-400"
                   />
                 </div>
-                <Textarea
-                  placeholder="Type your message here."
-                  className="w-full text-zinc-400 mt-4"
-                />
+                <div className="mt-4">
+                  <Label htmlFor="message" className="text-primary">
+                    Message
+                  </Label>
+                  <Textarea
+                    placeholder="Type your message here."
+                    className="w-full text-zinc-400"
+                  />
+                </div>
               </div>
               <DialogFooter>
                 <Button
@@ -114,6 +121,11 @@ const Contact = () => {
             height={300}
             quality={100}
           />
+          <div className="absolute -mt-[18.4rem] mx-[17.6rem]">
+            <Link href="/assets/yahyaDahir.pdf" target="_blank">
+              <VscFileSymlinkFile className="text-primary text-4xl border border-zinc-700 rounded-xl p-1" />
+            </Link>
+          </div>
         </div>
       </div>
     </main>
