@@ -11,7 +11,7 @@ const Projects = () => {
       <h1 className="mt-4 text-xl font-semibold text-primary mb-4">
         Check Out What I've Been Up To
       </h1>
-      <div className="grid grid-cols-6 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-6 gap-4">
         <div className="col-span-3">
           <div className="relative overflow-hidden rounded-3xl">
             <Image
@@ -28,7 +28,9 @@ const Projects = () => {
               <h1 className="mt-4 text-lg font-semibold text-primary">
                 Coin Pulse
               </h1>
-              <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+              <Link href="https://coin-pulse-seven.vercel.app/">
+                <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+              </Link>
             </div>
             <Link
               href="https://github.com/yahyacodes/coin-pulse"
@@ -58,7 +60,9 @@ const Projects = () => {
               <h1 className="mt-4 text-lg font-semibold text-primary">
                 Trace My IP
               </h1>
-              <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+              <Link href="https://trace-my-ip.vercel.app/">
+                <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+              </Link>
             </div>
             <Link
               href="https://github.com/yahyacodes/trace-my-ip"
@@ -73,7 +77,7 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-6 gap-4 mt-4">
+      <div className="grid grid-cols-1 lg:grid-cols-6 gap-4 mt-4">
         <div className="col-span-3">
           <div className="relative overflow-hidden rounded-3xl">
             <Image
@@ -90,7 +94,9 @@ const Projects = () => {
               <h1 className="mt-4 text-lg font-semibold text-primary">
                 FinEdge
               </h1>
-              <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+              <Link href="https://finedge-gamma.vercel.app/">
+                <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+              </Link>
             </div>
             <Link
               href="https://github.com/yahyacodes/finedge"
@@ -120,7 +126,9 @@ const Projects = () => {
               <h1 className="mt-4 text-lg font-semibold text-primary">
                 Nexus AI
               </h1>
-              <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+              <Link href="https://nexus-ai-sigma.vercel.app/">
+                <BsArrowUpRight className="text-primary text-4xl mt-2 bg-zinc-900 border border-zinc-800 rounded-full p-2" />
+              </Link>
             </div>
             <Link
               href="https://github.com/yahyacodes/nexus-ai"

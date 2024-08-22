@@ -6,9 +6,9 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-6 gap-4 text-primary">
-      <div className="col-span-4 border border-zinc-900 p-6 rounded-3xl">
-        <div className="flex items-center justify-between gap-4 mb-4">
+    <div className="grid grid-cols-1 lg:grid-cols-6 gap-4 text-primary">
+      <div className="lg:col-span-4 border border-zinc-900 p-6 rounded-3xl">
+        <div className="md:flex flex-none items-center justify-between gap-4 mb-4">
           <div className="flex">
             <Image
               src="/assets/logo-image.png"
@@ -61,7 +61,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="col-span-2 border border-zinc-900 rounded-3xl">
+      <div className="lg:col-span-2 border border-zinc-900 rounded-3xl">
         <Image
           src="/assets/hero-image.png"
           alt="avatar"
